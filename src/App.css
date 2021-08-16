@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ 
+.captions{
+ color: rgb(141, 30, 30);
+  font-size: 30px;
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+input{
+  
+    height: 3.4rem;
+    font-size: 1.8rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    color: rgb(58, 57, 57);
+    background-color: #fff;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+button {
+ background-color: #f64b29;;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position:absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  margin-left: 40px;
+}
+.mainn{
+  margin: 0px;
+  padding: 0px;
+  height:40rem;
+  background-color: rgb(255, 255, 255);
+  width: auto;
+}
+.App-link {
+  color: #61dafb;
+}
+.Iput_items{
+  margin:  25px 10px;
+}
+.each-items{
+ color: #ffD6AE;
+  padding: 1.2rem ;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: 28rem;
+  width: 400px; 
+  word-break: break-word;
+  background: #1B212c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:none;
+}
+.delete{
+ 
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  color: #f64b29;
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  display:list-item;
+  margin-left: 20px;
+  margin-top: 3rem;
+
+  
+}
+::placeholder{
+  font-size:18px;
+}
+.plus{
+ 
+  margin-left: 20px;
+  cursor: pointer;
+ border-radius: 0.5rem;
+ color:#f64b29;
+ 
+}
+.update{
+  margin-left: 20px;
+  cursor: pointer;
+  pointer-events: auto;
+  color:#f64b29;
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  
+}
+.update:hover{
+  color: rgb(12, 12, 12);
+}
+.delete :hover{
+  color: rgb(12, 12, 12);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 768px) {
+  input{
+    height: 3rem;
+    font-size: 1.8rem;
+   margin-left: 1px;
+  }
+  .mainn{
+   
+    padding: 0px;
+    height:40rem;
+    width:100%;
+  }
+  .each-items{
+    width: 300px ;
+    margin-left: 2em;
+    margin-top: 25px;
+  }
+  .Iput_items{
+
+    margin:  0px 0px;
+  }
+  button{
+     margin-top: 3rem;
+  }
+}
